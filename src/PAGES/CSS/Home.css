@@ -1,0 +1,365 @@
+*{
+    font-family: "Work Sans", sans-serif;
+}
+/* ------------------------------Row 2---------------------------------- */
+
+.Home-r2-container{
+    padding: 0px 20px !important;
+    margin: 0px 41px !important;
+    margin-top: -60px !important;
+    position: relative;
+    z-index: 1;
+
+}
+.Home-r2-div-odd{
+    padding: 24px !important;
+    background-color: #2b3991;
+}
+
+.Home-r2-div-even{
+    padding: 24px !important;
+    background-color: #007bff;
+}
+.Home-r2-icon{
+    font-size: 45px;
+    color: #ffffff;
+}
+.Home-r2-icon-odd-div{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #61a6fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.8s ease;
+    cursor: pointer;
+
+    &:hover{
+        transform: rotateY(180deg); 
+    }
+}
+
+.Home-r2-icon-even-div{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #2b3991;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    transition: transform 0.8s ease;
+
+    &:hover{
+        transform: rotateY(180deg); 
+    }
+}
+
+.Home-r2-heading{
+    color: #f8931d;
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.home-r2-content-div{
+    padding: 8px;
+    margin-top: 16px;
+}
+
+.Home-r2-para{
+    font-size: 16px;
+    color: #ffffffcc;
+    margin-bottom: 16px;
+    line-height: 26px !important;
+}
+
+/* media query is common for all rows and column */
+/* For Tablet view  */
+@media screen and (max-width:992px) {
+  
+    .Home-r2-container{
+        position: relative;
+        z-index: 1;
+        padding: 0px 20px !important;
+        margin: 0px !important;
+        margin-top: -60px !important;
+    }
+    }
+
+/* For mobile view  */
+@media screen and (max-width:767px) {
+    .Home-r2-container{
+       padding: 0px 20px !important;
+       margin-top: -7px !important;
+    }
+
+}
+
+/* ------------------------------Row 5---------------------------------- */
+.Home-r5-container{
+    padding: 80px 61px 0px 61px !important;
+}
+.Home-r5-heading1{
+    color: #f8931d;
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+.Home-r5-heading2{
+    color: #2b3991;
+    font-size: 38px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    line-height: 38px;
+}
+.Home-r5-para{
+    font-size: 16px;
+    color: #00000099;
+    line-height: 26px; 
+     text-align: justify;
+    font-weight: 400;
+    padding-bottom: 16px !important;
+    margin: 0px;
+}
+
+.Home-r5-small-heading{
+    color: #f8931d;
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.Home-r5-small-para{
+    font-size: 16px;
+    color: #00000099;
+    line-height: 26px; 
+     text-align: justify;
+    font-weight: 400;
+    padding-bottom: 16px !important;
+    margin: 0px;
+    padding-right: 50px;
+}
+
+.Home-r5-small-container{
+    padding: 30px 0px 30px 12px !important;
+
+}
+
+.Home-r5-icon-div{
+    margin: 8px 16px 0px 0px;
+    padding: 15px;
+    border: 2px solid #2b3991;
+    height: fit-content;
+
+}
+.Home-r5-icon{
+    height: 30px;
+    width: 30px;
+    color: #2b3991;   
+   
+}
+
+/* ----------------------Media query--------------------------- */
+
+
+/* For Tablet view  */
+@media screen and (max-width:992px) {
+    .Home-r5-container{
+        padding: 80px 20px 0px 20px !important;
+    }
+  
+} 
+
+/* ------------------------------Row 6---------------------------------- */
+
+.Home-r6-container{
+    padding: 80px 61px 80px 61px !important;
+    background-color: #f1f1f1;
+}
+.Home-r6-small-container1{
+    padding: 0px 15px 56px 15px;
+}
+.Home-r6-small-container2{
+    display: flex;
+    justify-content: center;
+
+}
+.Home-r6-content-div{
+    padding: 36px 35px 68px 35px !important;
+    background-color: #2b3991;
+    /* margin: 0px 8px 24px 8px; */
+    border-radius: 10px;
+    width: 26% !important;
+}
+.Home-r6-heading{
+    font-size: 25px;
+    margin-bottom: 24px;
+    color: #f8931d;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.Home-r6-para{
+    font-size: 16px;
+    margin: 0px;
+    color: #ffffff;
+    text-align: justify;
+    line-height: 26px;
+}
+
+/* ----------------------Media query--------------------------- */
+/* For Tablet view  */
+@media screen and (max-width:992px) {
+    .Home-r6-content-div{
+        
+        width: 42% !important;
+    }
+    .Home-r6-container{
+        padding: 80px 20px 0px 20px !important;
+    
+    }
+  
+    
+    }
+
+/* For mobile view  */
+@media screen and (max-width:767px) {
+    .Home-r6-content-div{
+       
+        width: 100% !important;
+    }
+    .Home-r6-container{
+        padding: 80px 20px 0px 20px !important;
+        
+    }
+   
+
+}
+
+/* ------------------------------Row 7---------------------------------- */
+
+/* for some element are same as above row so for that particular element i didnot write css  */
+
+.Home-r7-container{
+    padding: 80px 61px;
+}
+
+.Home-r7-image-div{
+    display: flex;
+    align-items: stretch; /*it will useful to fix the width as per the screen size*/
+    height: 300px;
+    overflow: hidden; /*to avoid the zoom image go outside */
+
+}
+.Home-r7-image{
+    width: 100%;
+    object-fit: cover;  
+    transition: ease 0.5s;
+    &:hover{
+        transform: scale(1.05); /*to zoom in the image*/
+    }
+    
+   
+}
+
+/* --------------------hover----------------- */
+.Home-r7-image-div:hover+.Home-r7-heading{
+   color: #2b3991 !important;
+}
+
+
+.Home-r7-card-container{
+    padding: 0px 20px !important;
+    margin-bottom: 30px;
+}
+
+
+.Home-r7-heading{
+    color: #f8931d;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-top: 16px;
+    margin: 0px;
+    transition: ease 0.5s;
+
+    &:hover{
+        color: #2b3991 !important;
+    }
+}
+.Home-r7-caption{
+   color: #2b3991;
+   font-size: 16px;
+   letter-spacing: 1px;
+   font-weight: 600;
+}
+
+/* ----------------------Media query--------------------------- */
+
+/* For Tablet view  */
+@media screen and (max-width:992px) {
+    .Home-r7-container{
+        padding: 80px 20px;
+    }
+    
+    }
+
+
+/* ------------------------------Row 8---------------------------------- */
+.Home-r8-container{
+    padding: 80px 61px !important;
+}
+.Home-r8-small-container2{
+    display: flex;
+    justify-content: center ;
+}
+.Home-r8-slidder{
+    background: linear-gradient(0deg, rgba(219, 221, 12, 1) 0%, rgba(45, 231, 253, 1) 100%);
+    padding: 48px;
+}
+.Home-r8-slider-container{
+    padding: 10px 15px 32px 15px;
+}
+.Home-r8-icon{
+    font-size: 20px !important;
+    margin:0px 10px !important;
+}
+.Home-r8-para{
+    font-size: 16px;
+    color: #000000cc;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom:16px ;
+    padding-right: 50px;
+    text-align: justify;
+}
+.Home-r8-name{
+    font-size: 20px;
+    color: #2b3991;
+    margin-bottom: 0px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.Home-r8-place{
+    font-size: 17px;
+    color: #000;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+/* ----------------------Media query--------------------------- */
+
+/* For Tablet view  */
+@media screen and (max-width:992px) {
+    
+    .Home-r8-container{
+        padding: 80px 20px !important;
+    }
+    .Home-r8-para{
+        padding-right: 0px;
+    }
+    
+    }

@@ -1,0 +1,71 @@
+.contactBar-container {
+    background: linear-gradient(0deg, rgba(219, 221, 12, 1) 0%, rgba(45, 231, 253, 1) 100%);
+    padding: 24px 16px;
+}
+
+.contactBar-sml-cont {
+    padding: 30px 20px 0px 20px !important;
+    margin: 0px 25px !important;
+}
+
+.cb-logo {
+    width: 200px;
+    padding: 0px 24px 0px 0px;
+}
+
+.cb-info {
+    color: #2b3991;
+    line-height: 1.8;
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600 !important;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    transition: ease 0.3s;
+
+    &:hover {
+        color: #fd7e14;
+    }
+
+}
+
+.cb-info-container {
+    padding: 20px 0px 0px 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cb-icon {
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-right: 8px;
+    padding: 20px 10px;
+    font-size: 20px;
+    color: #da1c5c;
+}
+
+@media screen and (max-width:992px) {
+
+    .cb-info-container {
+        padding: 0px 0px 0px 0px !important;
+        justify-content: start !important;
+        transform: translateX(90px);
+        margin: 10px 0px 10px 10px !important;
+    }
+
+    .contactBar-sml-cont {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .cb-logo {
+        padding: 30px 24px 50px 0px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .cb-logo {
+        padding: 30px 24px 0px 0px ;
+    }
+}

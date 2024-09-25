@@ -1,0 +1,119 @@
+*{
+    font-family: "Work Sans", sans-serif;
+}
+.Home-Banner-image{
+    position: relative;
+    min-height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5 ;/*Initial opacity for the image*/
+    transform: scale(0.97); /*Initial size for the image*/  
+    transition: 0.5s ease-in-out; 
+}
+.slick-active .Home-Banner-image {
+    opacity: 1;/*final opacity for the image*/
+    transform: scale(1);  /*final size for the image*/ 
+  }
+
+.Home-Banner-content-div{
+    position: absolute;
+    top: 30%;
+    padding-left: 70px;
+
+}
+.Home-Banner-heading1{
+    font-size: 60px;
+    color: #3345A7;
+    line-height: 1.2;
+    font-weight: 900;
+    margin: 0px;
+    opacity: 0.5 /*Initial opacity for the image*/;
+    transform: scale(0.97); /*Initial size for the image*/
+    transition:0.5s ease-in-out;
+}
+.slick-active .Home-Banner-heading1{
+    opacity: 1;/*final opacity for the heading1*/
+    transform: scale(1);  /*final size for the heading1*/ 
+  }
+
+
+.Home-Banner-heading2{
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 1.2;
+    font-weight: 900;
+    margin-bottom: 24px;
+    opacity: 0.5 /*Initial opacity for the image*/;
+    transform: scale(0.97); /*Initial size for the image*/
+    transition:0.5s ease-in-out;
+}
+.slick-active .Home-Banner-heading2 {
+    opacity: 1;/*final opacity for the heading2*/
+    transform: scale(1);  /*final size for the heading2*/ 
+  }
+
+
+.Home-Banner-para{
+    font-size: 18px;
+    color: #f89313;
+    font-weight: 600;
+    margin-bottom: 8px;
+    opacity: 0.5 /*Initial opacity for the image*/;
+    transform: scale(0.97); /*Initial size for the image*/
+    transition:0.5s ease-in-out;
+}
+.slick-active .Home-Banner-para{
+    opacity: 1;/*final opacity for the para*/
+    transform: scale(1); /*final size for the para*/ 
+  }
+
+
+.Home-Banner-btn-div{
+    margin-top: 30px ;
+    opacity: 0.5 /*Initial opacity for the image*/;
+    transform: scale(0.97); /*Initial size for the image*/
+    transition:0.5s ease-in-out;  
+}
+.slick-active .Home-Banner-btn-div {
+    opacity: 1;/*final opacity for the div*/
+    transform: scale(1); /*final size for the div*/ 
+  }
+
+
+.Home-Banner-button{
+    color: #ffffff;
+    font-size: 16px;
+    padding: 16px 24px;
+    background-color: #da1c5c;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+/* media query is common for all rows and column */
+/* For mobile view  */
+@media screen and (max-width:768px) {
+    .Home-Banner-heading1,.Home-Banner-heading2{
+        font-size: 30px;
+    }
+    .Home-Banner-content-div{
+        width: 20%;
+        text-align: center;
+        padding-left: 0px !important;
+        
+    }
+
+
+}
+
+/* For Tablet view  */
+@media screen and (max-width:992px) {
+    .Home-Banner-heading1,.Home-Banner-heading2{
+        font-size: 30px;
+    }
+    .Home-Banner-content-div{
+        padding-left: 25px;
+    
+    }
+}

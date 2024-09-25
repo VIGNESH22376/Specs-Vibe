@@ -1,0 +1,165 @@
+/*------------------------- Logo with content --------------- */
+.footer-top-container {
+    background: linear-gradient(0deg, rgba(219, 221, 12, 1) 0%, rgba(45, 231, 253, 1) 100%);
+
+    padding: 24px 56px 24px 56px !important;
+}
+.footer-sub-div{  /*It is common for logo content,get in touch ,quick links*/
+    padding: 0px 15px 0px 31px !important;
+    margin: 48px 0px 0px 0px !important;
+}
+.footer-logo{
+    width: 150px;
+    height: 100px;
+}
+.footer-logo-content{
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    line-height: 28px;
+    color: #f8f9fa;
+    padding-bottom: 4px;
+    text-align: justify;
+}
+
+/* --------------------Quick Links--------------------------  */
+
+.footer-list{   /*It is common for get in touch and quick links*/
+    list-style: none;
+   margin-bottom: 8px;
+    
+}
+.footer-link.active{
+    color: #2b3991 !important;
+}
+.footer-link{
+    text-decoration: none;
+    color: #f8f9fa !important;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    line-height: 28px !important;
+    
+    transition: ease 0.5s;
+
+    &:hover{
+        color: #fd7e14 !important;
+        letter-spacing: 2px;
+    }
+
+}
+.footer-heading{
+    font-size: 25px;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* --------------------Get in Touch--------------------------  */
+
+.footer-icon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #2b3991;
+}
+.footer-contact{
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    color: #f8f9fa;
+    line-height: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+.footer-contact-email{
+    transition: ease 0.5s;
+}
+.footer-contact-email:hover{
+    color: #12b48b ;
+}
+.footer-get-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* media query is common for all rows and column */
+/* For mobile view  */
+@media screen and (max-width:768px) {
+    .footer-get-div{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer-top-container {
+        padding: 24px 30px !important;
+    }
+
+
+    /* this is footer bottom css  */
+    .footer-bottom-container{
+        padding: 24px 50px !important;
+        align-items:start  !important;
+    }
+
+    .footer-specvibe{
+        margin-bottom: 16px !important;
+    }
+
+
+}
+
+/* For Tablet view  */
+@media screen and (max-width:992px) {
+    .footer-get-div{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer-top-container {
+        padding: 24px 30px !important;
+    }
+}
+
+/* --------------------Footer Bottom--------------------------  */
+.footer-bottom-container{
+    background-color: #051225;
+    padding: 24px 15px ;
+    color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-specvibe{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    padding-bottom: 0px !important;
+    margin-bottom: 2px;
+    border-bottom: 1px solid #ffffff;
+    text-decoration: none;
+}
+.footer-copyright{
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    padding: 6px 5px 0px 0px !important;
+    margin: 0px;
+}
+.footer-hubsem{
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    
+}
+.footer-hubsem-bold{
+    cursor: pointer;
+    transition: ease 0.5s;
+    text-decoration: none;
+    color: #ffffff;
+
+    &:hover{
+        color: #20c997 !important;
+    }
+}
